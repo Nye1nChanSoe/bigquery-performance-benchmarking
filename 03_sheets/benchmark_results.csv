@@ -1,0 +1,21 @@
+creation_time,benchmark_test,total_slot_ms,gb_billed,duration_ms,query
+2026-05-12 17:20:10.587000 UTC,A: Logical View (Native),23,0.0098,218,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.vw_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:20:38.511000 UTC,A: Logical View (Native),,0.0,118,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.vw_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:21:30.534000 UTC,B: Scheduled Table (Native),48,0.0098,241,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.scheduled_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:21:39.054000 UTC,B: Scheduled Table (Native),,0.0,97,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.scheduled_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:21:48.575000 UTC,C: Materialized View (Native),39,0.0098,199,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.mv_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:21:55.178000 UTC,C: Materialized View (Native),,0.0,187,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.mv_group_mean`
+ORDER BY group_id;"
+2026-05-12 18:06:13.788000 UTC,D: Sheets View (External),36176,0.0439,24858,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.vw_sheets_group_mean`
+ORDER BY group_id;"
+2026-05-12 18:06:51.246000 UTC,D: Sheets View (External),23336,0.0439,25250,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.vw_sheets_group_mean`
+ORDER BY group_id;"
+2026-05-12 18:07:36.147000 UTC,E: Sheets Scheduled (Native),42,0.0098,235,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.scheduled_sheets_group_mean`
+ORDER BY group_id;"
+2026-05-12 18:11:25.938000 UTC,E: Sheets Scheduled (Native),,0.0,99,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.scheduled_sheets_group_mean`
+ORDER BY group_id;"
