@@ -1,0 +1,9 @@
+[
+  {
+    "total_rows": "300000000",
+    "distinct_groups": "1000",
+    "min_val": "0.0",
+    "max_val": "1.0",
+    "mean_val": "0.5"
+  }
+]
