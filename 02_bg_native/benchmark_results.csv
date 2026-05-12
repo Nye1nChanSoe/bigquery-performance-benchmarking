@@ -1,0 +1,25 @@
+creation_time,benchmark_test,total_slot_ms,gb_billed,duration_ms,query
+2026-05-12 17:21:55.178000 UTC,C: Materialized View,,0.0,187,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.mv_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:21:48.575000 UTC,C: Materialized View,39,0.009765625,199,"SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.mv_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:21:39.054000 UTC,B: Scheduled Table,,0.0,97,"-- ============================================================
+-- BENCHMARK B: Scheduled query result table  (run TWICE)
+-- ============================================================
+SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.scheduled_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:21:30.534000 UTC,B: Scheduled Table,48,0.009765625,241,"-- ============================================================
+-- BENCHMARK B: Scheduled query result table  (run TWICE)
+-- ============================================================
+SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.scheduled_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:20:38.511000 UTC,A: Logical View,,0.0,118,"-- ============================================================
+-- BENCHMARK A: View  (run this TWICE, note elapsed time each run)
+-- ============================================================
+SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.vw_group_mean`
+ORDER BY group_id;"
+2026-05-12 17:20:10.587000 UTC,A: Logical View,23,0.009765625,218,"-- ============================================================
+-- BENCHMARK A: View  (run this TWICE, note elapsed time each run)
+-- ============================================================
+SELECT * FROM `project-7abcab2d-24a7-4f5d-80a.query_performance_benchmark.vw_group_mean`
+ORDER BY group_id;"
